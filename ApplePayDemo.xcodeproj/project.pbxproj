@@ -12,6 +12,7 @@
 		6C5411C21F7AA9E600256FCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C5411C01F7AA9E600256FCF /* Main.storyboard */; };
 		6C5411C41F7AA9E600256FCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C5411C31F7AA9E600256FCF /* Assets.xcassets */; };
 		6C5411C71F7AA9E600256FCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C5411C51F7AA9E600256FCF /* LaunchScreen.storyboard */; };
+		6C5411CF1F7AADA500256FCF /* ApplePayManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5411CE1F7AADA500256FCF /* ApplePayManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		6C5411C31F7AA9E600256FCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C5411C61F7AA9E600256FCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C5411C81F7AA9E600256FCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C5411CE1F7AADA500256FCF /* ApplePayManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplePayManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				6C5411C31F7AA9E600256FCF /* Assets.xcassets */,
 				6C5411C51F7AA9E600256FCF /* LaunchScreen.storyboard */,
 				6C5411C81F7AA9E600256FCF /* Info.plist */,
+				6C5411CE1F7AADA500256FCF /* ApplePayManager.swift */,
 			);
 			path = ApplePayDemo;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C5411CF1F7AADA500256FCF /* ApplePayManager.swift in Sources */,
 				6C5411BF1F7AA9E600256FCF /* ViewController.swift in Sources */,
 				6C5411BD1F7AA9E600256FCF /* AppDelegate.swift in Sources */,
 			);
