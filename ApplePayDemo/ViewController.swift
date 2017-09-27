@@ -31,6 +31,10 @@ class ViewController: UIViewController {
         let button = PKPaymentButton(type: .buy, style: .black)
         button.addTarget(self, action: #selector(ViewController.applePayButtonPressed), for: .touchUpInside)
         applePayButtonContainer.addSubview(button)
+        
+        // Center button, PKPaymentButton wasn't playing nicely..
+        button.center = CGPoint(x: applePayButtonContainer.frame.size.width  / 2,
+                                y: applePayButtonContainer.frame.size.height / 2)
     }
     
     func applePayButtonPressed(sender: AnyObject) {
